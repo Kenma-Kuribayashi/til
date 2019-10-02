@@ -18,4 +18,4 @@
 
 ## heroku postgresql　無料分
 
-* 512MB
+* RAM512MB
