@@ -18,4 +18,4 @@
 
 ## heroku postgresql　無料分
 
-* RAM512MB
+* RAM(作業領域)512MB
