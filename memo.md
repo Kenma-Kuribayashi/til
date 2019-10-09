@@ -37,7 +37,7 @@
 ## laravel5.6にJS書きたいとき
 
 * ①npm(Node package manager)をインストール
-*　　→npm install
+*　　→$ npm install
 * ②resources/assets/内に js ファイルを作成
 * ③resources/assets/js/app.js を編集
 * ④npm run dev コマンドで js ファイルをコンパイル
