@@ -7,6 +7,8 @@
 ## RSpec
 
 * RSpecとは Ruby プログラマー向けのBDDツール。ここでの BDD はテスト駆動開発, ドメイン駆動型設計, 受け入れテスト型設計へのアプローチのこと。RSpec は Gem パッケージとして提供されている。
+* AWS cloud9でのRSpecのGemインストール方法　→ $ gem install rspec
+* テストを走らせるときはターミナル上で → $ rspec ファイル名
 
 ## CI/CD
 
