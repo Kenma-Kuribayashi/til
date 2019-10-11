@@ -42,3 +42,7 @@
 * ②resources/assets/内に js ファイルを作成
 * ③resources/assets/js/app.js を編集
 * ④npm run dev コマンドで js ファイルをコンパイル　→ $ npm run dev
+
+## Githubからクローンする場合
+* ①フォルダごと保存されるため、保存させたいディレクトリに移動する
+* ②ターミナル上でgit clone https://○○のコマンドを打つ
