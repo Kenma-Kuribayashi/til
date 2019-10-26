@@ -12,7 +12,7 @@
 
 ## Gitkrakenでローカルリポジトリを作った後でGithubで先に作ったリモートリポジトリを登録したいとき。
 * Gitkrakenのリポジトリが表示されている画面のREMOTEのところで+ボタンを押す。
-* URLタブにしてName
+* URLタブにしてNameには適当な名前(REMOTEで表示される名前、例githubなど)をPullURLにはGithubのリポジトリのhttpsのクローンURLの貼り付けて、Add Remoteボタンを押す。
 
 ## その他
 * ファイルを編集をしたときはWorking状態、この状態でaddするとステージング状態となり、commit対象となる。commitされるのはステージングエリアにあるファイルのみ。
