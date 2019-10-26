@@ -10,5 +10,9 @@
 ## Git:resetとGit:revert
 * ローカルでpushする前だったらresetを使い、pushした後だったらrevertを使う。pushした後にresetを使うと、リモートの履歴に残らず、改変することになるので危険。
 
+## Gitkrakenでローカルリポジトリを作った後でGithubで先に作ったリモートリポジトリを登録したいとき。
+* Gitkrakenのリポジトリが表示されている画面のREMOTEのところで+ボタンを押す。
+* URLタブにしてName
+
 ## その他
 * ファイルを編集をしたときはWorking状態、この状態でaddするとステージング状態となり、commit対象となる。commitされるのはステージングエリアにあるファイルのみ。
