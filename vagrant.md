@@ -12,3 +12,9 @@
 * vagrant ssh
 * ファイル転送ツールを立ち上げて、ブックマークの「MyCentOS」をダブルクリック
 * php -S 192.168.33.10:8000
+
+## 学習やめるとき
+* サーバーが立ち上がっている場合、「Ctl + C」
+* exit
+* vagrant suspend
+* exit
