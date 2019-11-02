@@ -73,7 +73,7 @@ https://tikasan.hatenablog.com/entry/2018/08/06/110000
 *　MySQLをGUIで見やすくしたもの。SQLiteの見れたやつみたいな？
 
 ## phpunit
-* テストフレームワーク。Respec的な？
+* テストフレームワーク。Rpec的な？
 
 ## xdebug
 * PHPのデバッグ用の拡張モジュール。phpを動かしているサーバーにインストールする必要がある。
