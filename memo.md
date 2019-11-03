@@ -73,7 +73,8 @@ https://tikasan.hatenablog.com/entry/2018/08/06/110000
 *　MySQLをGUIで見やすくしたもの。SQLiteの見れたやつみたいな？
 
 ## phpunit
-* テストフレームワーク。Rpec的な？
+* テストフレームワーク。Rspec的な？
+* Laravelで使う場合、Laravelのプロジェクト下にcomposer.lockとcomposer.jsonができる。composer はプロジェクトルートの composer.json ファイルにライブラリを記述することで依存関係の管理を行う。パッケージを追加する場合は composer.json を編集し、composer update コマンドを実行する。PHPUnit をインストールする場合は、composer.jsonを編集して「composer update」コマンドを実行する。(参考：https://laraweb.net/surrounding/2290/)
 
 ## xdebug
 * PHPのデバッグ用の拡張モジュール。phpを動かしているサーバーにインストールする必要がある。
