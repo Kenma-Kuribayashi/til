@@ -6,3 +6,10 @@
 ## github SSH接続 (参考　https://qiita.com/ucan-lab/items/e02f2d3a35f266631f24)
 * ~/.ssh/config へ追記ではターミナル上に書き込めるようになる。貼り付け終わったら、「:wq」で保存して抜け出せる。
 
+# 起動させるとき
+## Dockerのアプリケーション起動
+## cd <docker-compose.ymlが置かれているディレクトリ>
+## docker-compose up -d
+
+# 停止させるとき
+## docker-compose stop
