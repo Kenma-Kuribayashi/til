@@ -13,3 +13,6 @@
 
 # 停止させるとき
 ## docker-compose stop
+
+# docker-compose exec app ash
+## Laravelモード？にするコマンド。データベースのログインみたいな
