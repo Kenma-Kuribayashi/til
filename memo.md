@@ -81,15 +81,15 @@ https://tikasan.hatenablog.com/entry/2018/08/06/110000
 
 * 接続するとき
 
-＊＊ mysql -u root -p
+**  mysql -u root -p
 
-＊ 何のデータベースあるか見る時
+* 何のデータベースあるか見る時
 
-**  mysql> show databases;
+** mysql> show databases;
 
-*  何のテーブルあるか見る時
+* 何のテーブルあるか見る時
 
-**  use `テーブル名`;
+** use `テーブル名`;
 
 ** show tables;
 
