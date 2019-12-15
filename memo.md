@@ -78,20 +78,9 @@ https://tikasan.hatenablog.com/entry/2018/08/06/110000
 * MySQLをGUIで見やすくしたもの。SQLiteの見れたやつみたいな？
 
 ## MySQL
-
-* 接続するとき
-
-**  mysql -u root -p
-
-* 何のデータベースあるか見る時
-
-** mysql> show databases;
-
-* 何のテーブルあるか見る時
-
-** use `テーブル名`;
-
-** show tables;
+* 接続するとき mysql -u root -p
+* 何のデータベースあるか見る時 mysql> show databases;
+* 何のテーブルあるか見る時 use `テーブル名`; show tables;
 
 ## phpunit
 * テストフレームワーク。Rspec的な？
