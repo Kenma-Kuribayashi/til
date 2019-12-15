@@ -76,6 +76,16 @@ https://tikasan.hatenablog.com/entry/2018/08/06/110000
 ## sequelPro
 *　MySQLをGUIで見やすくしたもの。SQLiteの見れたやつみたいな？
 
+## MySQL
+*　接続するとき
+**  mysql -u root -p
+*  何のデータベースあるか見る時
+**  mysql> show databases;
+*  何のテーブルあるか見る時
+**  use `テーブル名`;
+
+** show tables;
+
 ## phpunit
 * テストフレームワーク。Rspec的な？
 * Laravelで使う場合、Laravelのプロジェクト下にcomposer.lockとcomposer.jsonができる。composer はプロジェクトルートの composer.json ファイルにライブラリを記述することで依存関係の管理を行う。パッケージを追加する場合は composer.json を編集し、composer update コマンドを実行する。PHPUnit をインストールする場合は、composer.jsonを編集して「composer update」コマンドを実行する。(参考：https://laraweb.net/surrounding/2290/)
