@@ -74,14 +74,21 @@ https://tikasan.hatenablog.com/entry/2018/08/06/110000
 * APIのレスポンスを見たかったり、正しいドメインにアクセスしているかを確認したい場合に使える。通信のモニタリングや通信速度のシミュレーションができる。アプリ作る人が使うやつ？
 
 ## sequelPro
-*　MySQLをGUIで見やすくしたもの。SQLiteの見れたやつみたいな？
+
+* MySQLをGUIで見やすくしたもの。SQLiteの見れたやつみたいな？
 
 ## MySQL
-*　接続するとき
-**  mysql -u root -p
-*  何のデータベースあるか見る時
+
+* 接続するとき
+
+＊＊ mysql -u root -p
+
+＊ 何のデータベースあるか見る時
+
 **  mysql> show databases;
+
 *  何のテーブルあるか見る時
+
 **  use `テーブル名`;
 
 ** show tables;
