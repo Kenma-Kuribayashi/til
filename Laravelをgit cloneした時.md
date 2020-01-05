@@ -7,3 +7,7 @@
 ## Composerのダウンロードのやつを貼り付けて実行する。
 ## 以下のコマンドでvendor(Laravelのライブラリ系)をインストールする。
 * php composer.phar install
+## 以下のコマンドで.envファイルのAPP_KEYに自動でapp_keyが入力される。
+* php artisan key:generate
+## サーバーは以下で立てる。127.0.0.1は使えない。
+* php -S 192.168.33.10:8000 -t public
