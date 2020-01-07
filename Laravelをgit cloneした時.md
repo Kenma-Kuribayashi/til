@@ -11,3 +11,17 @@
 * php artisan key:generate
 ## サーバーは以下で立てる。127.0.0.1は使えない。
 * php -S 192.168.33.10:8000 -t public
+## ローカルにデータベースを用意する。
+## MySQLにrootでログインする。
+* mysql -u root
+## ＤＢの作成
+* CREATE DATABASE 適当な名前;
+## ユーザーの作成または元々作ってあったユーザーへ権限を与える。ちなみに元々作ってあったユーザーは以下のコマンドで。dbuserはドットインストールのphpのtodoで。
+* SELECT user, host FROM mysql.user;
+## 権限の設定.ここでは実際にやったやつ。
+* GRANT ALL ON laravel_sample.* TO 'root'@'127.0.0.1' IDENTIFIED BY '';
+## mysqlから出る。
+* quit
+## マイグレーション流す。
+* php artisan migrate
+
