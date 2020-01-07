@@ -14,5 +14,16 @@
 * Gitkrakenのリポジトリが表示されている画面のREMOTEのところで+ボタンを押す。
 * URLタブにしてNameには適当な名前(REMOTEで表示される名前、例githubなど)をPullURLにはGithubのリポジトリのhttpsのクローンURLの貼り付けて、Add Remoteボタンを押す。
 
+## sshでgit cloneする。
+* ssh -T git@github.comでyes/no聞かれるからyesでHi○○！とならなかったらgithubとは接続されてない。macのターミナルやvagrantでは接続済み。dockerを使うときはまたやらなくちゃいけないかも。
+## 鍵を入れるフォルダに移動
+* cd ~/.ssh
+## 以降以下の記事を参考にした。
+* https://qiita.com/shizuma/items/2b2f873a0034839e47ce#%E8%BF%BD%E8%A8%98-2015531
+* vagrantではクリップボードにコピーできなかったので、以下のコマンドで表示してそのままコピーした。
+## githubへの登録終わったら、もう一度接続を確認してみる。
+## クローン作りたいディレクトリに移動してgit clone ○○
+
+
 ## その他
 * ファイルを編集をしたときはWorking状態、この状態でaddするとステージング状態となり、commit対象となる。commitされるのはステージングエリアにあるファイルのみ。
