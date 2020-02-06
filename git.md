@@ -27,5 +27,9 @@
 ## ブランチを指定してpushしたい時
 * git push origin test(ローカルブランチ):test(リモートブランチ)
 
+## git pushしたときに「The requested URL returned error: 403」
+* 以下のコマンドで解決
+* git remote set-url origin git@github.com:Kenma-Kuribayashi/Laravel-Sample.git
+
 ## その他
 * ファイルを編集をしたときはWorking状態、この状態でaddするとステージング状態となり、commit対象となる。commitされるのはステージングエリアにあるファイルのみ。
