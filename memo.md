@@ -77,6 +77,20 @@ https://tikasan.hatenablog.com/entry/2018/08/06/110000
 
 * MySQLをGUIで見やすくしたもの。SQLiteの見れたやつみたいな？
 
+## vagrantを使っている時のsequelProの接続方法
+* 参考記事:https://qiita.com/iwaseasahi/items/e245e61da4b7613494c5
+* 名前は好きな名前
+* ホストは127.0.0.1(laravel-sampleの.envファイル参照)
+* ユーザ名はroot
+* パスはなし
+* データベースはlaravel_sample
+* ポートは3306
+* ssh接続タブで
+* SSHホストは192.168.33.10(Vagrantfileより)
+* SSHユーザ: vagrant(特に設定していない場合は)
+* SSHパス: vagrant(特に設定していない場合は)
+* SSHポート:22(特に設定していない場合は)
+
 ## MySQL
 * 接続するとき mysql -u root -p
 * 何のデータベースあるか見る時 mysql> show databases;
