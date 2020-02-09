@@ -80,7 +80,9 @@ https://tikasan.hatenablog.com/entry/2018/08/06/110000
 ## MySQL
 * 接続するとき mysql -u root -p
 * 何のデータベースあるか見る時 mysql> show databases;
-* 何のテーブルあるか見る時 use `テーブル名`; show tables;
+* 何のテーブルあるか見る時 use `テーブル名`;
+* テーブルの構造を見るとき show tables;
+* テーブルのデータを見るとき SHOW TABLES FROM `テーブル名`;
 
 ## phpunit
 * テストフレームワーク。Rspec的な？
