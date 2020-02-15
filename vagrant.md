@@ -18,3 +18,11 @@
 * exit
 * vagrant suspend
 * exit
+
+## ローカルとの同期化
+* ローカルにあるvagrantfilleを以下のように書き換えた。#はコメント表示なので#はとる必要がある。第一引数がローカル、第2がvagrant上。typeにvirtualboxを指定することでリアルタイムで同期化してくれる。
+* config.vm.synced_folder "Laravel-Sample", "/home/vagrant/laravel_sample/Laravel-Sample", type: "virtualbox"
+* 書き換えた後にvagrant reloadした。
+* 参考は以下の通り。
+* https://qiita.com/yusk24/items/96a0000716fed7ca62f6
+* https://teratail.com/questions/171625
