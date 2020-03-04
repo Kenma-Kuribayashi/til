@@ -36,9 +36,15 @@
 
 * ブラウザによるページ遷移を行うことなく、単一のWebページでコンテンツの切り替えを行うことで、UXが向上する。
 
+## npmをインストールするために
+
+* 自分のmac自体にnpmを入れる必要があるため、まずnodenvというnode.jsのバージョンマネージャを入れる。
+* 以下の記事を参考に行った。pzすはbashで。使うnodeの指定はローカルで、nodeのアンインストールはしていない、
+* https://qiita.com/1000ch/items/41ea7caffe8c42c5211c
+
 ## laravel5.6にJS書きたいとき
 
-* ①npm(Node package manager)をインストール → $ npm install
+* ①npm(Node package manager)を作業ディレクトリにインストール → $ npm install
 * ②resources/assets/内に js ファイルを作成
 * ③resources/assets/js/app.js を編集
 * ④npm run dev コマンドで js ファイルをコンパイル　→ $ npm run dev
